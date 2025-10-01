@@ -39,7 +39,10 @@ This app demonstrates a complete salon booking flow with authentication, built w
 # Install dependencies
 npm install
 
-# Start the app
+# Start the Apollo server
+npm run server
+
+# Start the app in a another terminal
 npx expo start
 ```
 
