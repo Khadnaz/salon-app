@@ -1,0 +1,326 @@
+{
+  "salons": [
+    {
+      "id": "1",
+      "name": "Glam Salon",
+      "address": "123 Main St",
+      "rating": 4.5,
+      "specialties": [
+        "Hair",
+        "Nails",
+        "Makeup"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Style Studio",
+      "address": "456 Elm St",
+      "rating": 4.8,
+      "specialties": [
+        "Hair",
+        "Spa",
+        "Facial"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Beauty Haven",
+      "address": "789 Oak Ave",
+      "rating": 4.6,
+      "specialties": [
+        "Nails",
+        "Spa",
+        "Massage"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "name": "Haircut",
+      "price": 20,
+      "salonId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Hair Coloring",
+      "price": 45,
+      "salonId": "1"
+    },
+    {
+      "id": "3",
+      "name": "Manicure",
+      "price": 15,
+      "salonId": "1"
+    },
+    {
+      "id": "4",
+      "name": "Pedicure",
+      "price": 20,
+      "salonId": "1"
+    },
+    {
+      "id": "5",
+      "name": "Makeup",
+      "price": 35,
+      "salonId": "1"
+    },
+    {
+      "id": "6",
+      "name": "Haircut",
+      "price": 25,
+      "salonId": "2"
+    },
+    {
+      "id": "7",
+      "name": "Hair Styling",
+      "price": 30,
+      "salonId": "2"
+    },
+    {
+      "id": "8",
+      "name": "Facial",
+      "price": 40,
+      "salonId": "2"
+    },
+    {
+      "id": "9",
+      "name": "Deep Tissue Massage",
+      "price": 60,
+      "salonId": "2"
+    },
+    {
+      "id": "10",
+      "name": "Manicure",
+      "price": 18,
+      "salonId": "3"
+    },
+    {
+      "id": "11",
+      "name": "Pedicure",
+      "price": 22,
+      "salonId": "3"
+    },
+    {
+      "id": "12",
+      "name": "Gel Nails",
+      "price": 35,
+      "salonId": "3"
+    },
+    {
+      "id": "13",
+      "name": "Spa Treatment",
+      "price": 75,
+      "salonId": "3"
+    },
+    {
+      "id": "14",
+      "name": "Swedish Massage",
+      "price": 55,
+      "salonId": "3"
+    }
+  ],
+  "staff": [
+    {
+      "id": "1",
+      "name": "Sarah Johnson",
+      "specialization": "Hair Stylist",
+      "photo": "https://randomuser.me/api/portraits/women/1.jpg",
+      "salonId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Emily Davis",
+      "specialization": "Nail Technician",
+      "photo": "https://randomuser.me/api/portraits/women/2.jpg",
+      "salonId": "1"
+    },
+    {
+      "id": "3",
+      "name": "Jessica Brown",
+      "specialization": "Makeup Artist",
+      "photo": "https://randomuser.me/api/portraits/women/3.jpg",
+      "salonId": "1"
+    },
+    {
+      "id": "4",
+      "name": "Michael Chen",
+      "specialization": "Hair Stylist",
+      "photo": "https://randomuser.me/api/portraits/men/1.jpg",
+      "salonId": "2"
+    },
+    {
+      "id": "5",
+      "name": "David Martinez",
+      "specialization": "Esthetician",
+      "photo": "https://randomuser.me/api/portraits/men/2.jpg",
+      "salonId": "2"
+    },
+    {
+      "id": "6",
+      "name": "Amanda Wilson",
+      "specialization": "Massage Therapist",
+      "photo": "https://randomuser.me/api/portraits/women/4.jpg",
+      "salonId": "2"
+    },
+    {
+      "id": "7",
+      "name": "Lisa Anderson",
+      "specialization": "Nail Technician",
+      "photo": "https://randomuser.me/api/portraits/women/5.jpg",
+      "salonId": "3"
+    },
+    {
+      "id": "8",
+      "name": "Karen Taylor",
+      "specialization": "Spa Specialist",
+      "photo": "https://randomuser.me/api/portraits/women/6.jpg",
+      "salonId": "3"
+    },
+    {
+      "id": "9",
+      "name": "Robert Lee",
+      "specialization": "Massage Therapist",
+      "photo": "https://randomuser.me/api/portraits/men/3.jpg",
+      "salonId": "3"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Demo User",
+      "phone": "1234567890",
+      "email": "demo@salon.com",
+      "password": "demo123"
+    },
+    {
+      "id": "user-1759246543126",
+      "name": "full name",
+      "phone": "1234567890",
+      "email": "me@gmail.com",
+      "password": "mosmos"
+    },
+    {
+      "id": "user-1759246615698",
+      "name": "eer",
+      "phone": "09876543210",
+      "email": "re@lo.com",
+      "password": "mosmos"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking-1759246574874",
+      "salon": {
+        "id": "2",
+        "name": "Style Studio",
+        "address": "456 Elm St",
+        "rating": 4.8,
+        "specialties": [
+          "Hair",
+          "Spa",
+          "Facial"
+        ]
+      },
+      "services": [
+        {
+          "id": "6",
+          "name": "Haircut",
+          "price": 25,
+          "salonId": "2"
+        },
+        {
+          "id": "8",
+          "name": "Facial",
+          "price": 40,
+          "salonId": "2"
+        }
+      ],
+      "staff": {
+        "id": "5",
+        "name": "David Martinez",
+        "specialization": "Esthetician",
+        "photo": "https://randomuser.me/api/portraits/men/2.jpg",
+        "salonId": "2"
+      },
+      "time": "10:00 AM"
+    },
+    {
+      "id": "booking-1759246589957",
+      "salon": {
+        "id": "1",
+        "name": "Glam Salon",
+        "address": "123 Main St",
+        "rating": 4.5,
+        "specialties": [
+          "Hair",
+          "Nails",
+          "Makeup"
+        ]
+      },
+      "services": [
+        {
+          "id": "1",
+          "name": "Haircut",
+          "price": 20,
+          "salonId": "1"
+        }
+      ],
+      "staff": {
+        "id": "1",
+        "name": "Sarah Johnson",
+        "specialization": "Hair Stylist",
+        "photo": "https://randomuser.me/api/portraits/women/1.jpg",
+        "salonId": "1"
+      },
+      "time": "4:00 PM"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "1",
+      "time": "9:00 AM",
+      "isAvailable": true
+    },
+    {
+      "id": "2",
+      "time": "10:00 AM",
+      "isAvailable": true
+    },
+    {
+      "id": "3",
+      "time": "11:00 AM",
+      "isAvailable": true
+    },
+    {
+      "id": "4",
+      "time": "12:00 PM",
+      "isAvailable": false
+    },
+    {
+      "id": "5",
+      "time": "1:00 PM",
+      "isAvailable": true
+    },
+    {
+      "id": "6",
+      "time": "2:00 PM",
+      "isAvailable": true
+    },
+    {
+      "id": "7",
+      "time": "3:00 PM",
+      "isAvailable": false
+    },
+    {
+      "id": "8",
+      "time": "4:00 PM",
+      "isAvailable": true
+    },
+    {
+      "id": "9",
+      "time": "5:00 PM",
+      "isAvailable": true
+    }
+  ]
+}
