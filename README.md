@@ -8,10 +8,10 @@ This app demonstrates a complete salon booking flow with authentication, built w
 
 
 ![Screenshot_1-10-2025_8158_localhost](https://github.com/user-attachments/assets/a2466180-2bf2-4c20-aad1-2a84f754655a)
-<img width="306" height="457" alt="apollo" src="https://github.com/user-attachments/assets/f409a1bc-2519-4487-b9f7-c9eff12ce620" />
 ![Screenshot_1-10-2025_81532_localhost](https://github.com/user-attachments/assets/907189a6-542f-401c-8ec3-986f51038250)
 ![Screenshot_1-10-2025_81442_localhost](https://github.com/user-attachments/assets/79713528-1dfe-4747-b6ea-aa57dc161f95)
 ![Screenshot_1-10-2025_81427_localhost](https://github.com/user-attachments/assets/dabaa4e2-bee2-4cdd-b387-e79380b537bc)
+<img width="306" height="457" alt="apollo" src="https://github.com/user-attachments/assets/f409a1bc-2519-4487-b9f7-c9eff12ce620" />
 
 
 ## Features
