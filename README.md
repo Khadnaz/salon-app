@@ -1,6 +1,6 @@
 # Salon Booking App
 
-A professional React Native salon booking application with mock GraphQL backend simulation.
+A React Native salon booking application with mock GraphQL backend simulation served via Apollo.
 
 ## Overview
 
